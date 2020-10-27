@@ -10,8 +10,8 @@ from l5kit.rasterization.box_rasterizer import get_ego_as_agent
 from l5kit.rasterization.rasterizer_builder import (_load_metadata, get_hardcoded_world_to_ecef)
 
 from matplotlib import pyplot as plt
-from opengl import *
-from opengl.entities import Agent
+from .opengl import *
+from .opengl.entities import Agent
 from OpenGL.GL import *
 from OpenGL.GLUT import *
 from tqdm import tqdm
